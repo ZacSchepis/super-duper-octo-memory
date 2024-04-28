@@ -11,7 +11,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Installing things needed for this
 RUN apt-get update && \
-        apt-get install -y \
+        apt-get install -q -y \
         gdb \
         git \
         curl \
